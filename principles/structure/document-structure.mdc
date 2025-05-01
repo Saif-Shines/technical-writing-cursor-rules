@@ -3,7 +3,10 @@ description:
 globs:
 alwaysApply: false
 ---
-# Document Structure Guide (from tw-guide)
+metadata:
+  alwaysApply: true
+
+# Document Structure Guide
 
 ## Introduce a Document
 

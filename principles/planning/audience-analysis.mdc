@@ -3,7 +3,10 @@ description:
 globs:
 alwaysApply: false
 ---
-# Audience Analysis Guide (from tw-guide)
+metadata:
+  alwaysApply: true
+
+# Audience Analysis
 
 ## Define Your Audience's Needs
 

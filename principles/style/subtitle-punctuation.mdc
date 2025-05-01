@@ -3,7 +3,10 @@ description:
 globs:
 alwaysApply: false
 ---
-# Subtitle Punctuation Rule
+metadata:
+  alwaysApply: true
+
+# Subtitle Punctuation Rules
 
 ## No Trailing Period in Subtitles
 

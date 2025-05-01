@@ -3,6 +3,9 @@ description:
 globs:
 alwaysApply: false
 ---
+metadata:
+  alwaysApply: true
+
 # Code Snippet Formatting
 
 Always format code snippets using triple backticks (```) in documentation, markdown files, and code comments. When possible, specify the language immediately after the opening backticks for proper syntax highlighting (e.g., ```js, ```python, ```bash).

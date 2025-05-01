@@ -1,0 +1,8 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+# Test Rule
+
+This is a test rule that demonstrates the proper format for Cursor rules.

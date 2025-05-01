@@ -1,7 +1,13 @@
 ---
-description: 
+description:
 globs: *.md, *.mdx
 ---
+# Technical Writing Rules for MD/MDX Files
+metadata:
+  alwaysApply: true
+
+# Technical Writing Rules for MD/MDX Files
+# Technical Writing Rules for MD/MDX Files
 # Technical Writing Rules for MD/MDX Files
 
 rules:
@@ -12,7 +18,7 @@ rules:
       note: "Passive constructions require explicit approval"
     strong_verbs:
       forbidden: ["is", "are", "was", "were", "occur", "happen"]
-      replacements: 
+      replacements:
         "is provided by": "provides"
         "was generated": "generated"
     clarity:
@@ -24,7 +30,7 @@ rules:
 
   document_structure:
     mandatory_sections:
-      - scope: 
+      - scope:
           required: true
           max_length: 1
       - audience:
@@ -58,7 +64,7 @@ rules:
       parallelism: strict
       introduction: "complete_sentence:"
     table_rules:
-      header_requirements: 
+      header_requirements:
         descriptive: true
         technical_terms: explained
       cell_constraints:
@@ -84,7 +90,7 @@ rules:
   visual_elements:
     illustrations:
       caption_first: mandatory
-      complexity_score: 
+      complexity_score:
         max: 3
         calculation: "elements + connections"
       callouts:
@@ -104,7 +110,7 @@ rules:
       - curse_of_knowledge_assessment
       - audience_proximity_verification
     testing:
-      sample_code: 
+      sample_code:
         execution_env: "dockerized"
         coverage: 85%
 

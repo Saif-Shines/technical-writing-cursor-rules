@@ -3,7 +3,10 @@ description:
 globs:
 alwaysApply: false
 ---
-# Use Simple Language and Sentences
+metadata:
+  alwaysApply: true
+
+# Simple Language and Sentences
 
 Write documentation using simple, clear language and short sentences. Follow these guidelines:
 

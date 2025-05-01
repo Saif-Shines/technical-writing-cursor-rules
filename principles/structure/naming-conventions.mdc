@@ -3,6 +3,11 @@ description:
 globs:
 alwaysApply: false
 ---
+metadata:
+  alwaysApply: true
+
+# Naming Conventions
+
 # Naming Conventions Guide (from tw-guide)
 
 ## Use Consistent Names
