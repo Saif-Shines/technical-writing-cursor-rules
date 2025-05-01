@@ -1,0 +1,24 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+# Naming Conventions Guide (from tw-guide)
+
+## Use Consistent Names
+
+*   Use the same name for the same concept throughout the document.
+
+## Shortened Names
+
+*   When introducing a long concept or product name, you can specify a shortened version in parentheses (e.g., "Protocol Buffers (or protobufs for short)").
+*   Use the shortened name consistently thereafter.
+
+## Acronyms
+
+*   **First Use:** Spell out the full term, put the acronym in parentheses, and bold both. Example: **Telekinetic Tactile Network (TTN)**.
+*   **Subsequent Use:** Use the acronym.
+*   **Consistency:** Do not switch back and forth between the acronym and the full term.
+*   **When to Define:**
+    *   Define if the acronym is significantly shorter AND appears many times.
+    *   Don't define if only used a few times.

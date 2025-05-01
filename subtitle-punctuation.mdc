@@ -1,0 +1,14 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+# Subtitle Punctuation Rule
+
+## No Trailing Period in Subtitles
+
+* Subtitles (including those in MD/MDX files and within <Subtitle> components) must not end with a period (.)
+* This rule applies to all subtitle text, regardless of length or content.
+* Example:
+    * Good: <Subtitle>Integrate with Scalekit APIs using our official SDKs</Subtitle>
+    * Bad: <Subtitle>Integrate with Scalekit APIs using our official SDKs.</Subtitle>

@@ -1,0 +1,23 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+# Use Simple Language and Sentences
+
+Write documentation using simple, clear language and short sentences. Follow these guidelines:
+
+- Use short, direct sentences. Split long sentences into two.
+- Avoid jargon and abbreviations. Write out terms fully and use specific, accurate words.
+- Prefer the imperative mood when giving instructions.
+- Avoid ambiguous or left-branching sentences. Make sure each sentence can be understood on its own.
+- Do not use demonstrative pronouns (e.g., "this") across sentences.
+- Begin paragraphs and sections with a clear topic sentence that previews the content.
+- Keep paragraphs short and easy to skim.
+- Do not presume the reader's state of mind or knowledge.
+
+**Example:**
+- Good: "To install the package, run the following command."
+- Bad: "Now you probably want to install the package, so you should run the following command."
+
+For more guidance, see [ted-docs-philosophy](https://github.com/openai/openai-cookbook/blob/main/articles/what_makes_documentation_good.md).

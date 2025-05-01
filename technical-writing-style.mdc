@@ -1,0 +1,120 @@
+---
+description: 
+globs: *.md, *.mdx
+---
+# Technical Writing Rules for MD/MDX Files
+
+rules:
+  voice_and_style:
+    active_voice:
+      enabled: true
+      exceptions: ["imperative_commands"]
+      note: "Passive constructions require explicit approval"
+    strong_verbs:
+      forbidden: ["is", "are", "was", "were", "occur", "happen"]
+      replacements: 
+        "is provided by": "provides"
+        "was generated": "generated"
+    clarity:
+      max_sentence_length: 25
+      banished_phrases: ["there is", "there are"]
+      examples:
+        bad: "There are three components"
+        good: "The system contains three components"
+
+  document_structure:
+    mandatory_sections:
+      - scope: 
+          required: true
+          max_length: 1
+      - audience:
+          roles: ["software_engineers", "technical_pms", "scientists"]
+          prerequisites: ["matrix_multiplication", "backpropagation"]
+      - summary:
+          position: header
+          length: "3-5_lines"
+    heading_rules:
+      levels: [2, 3]
+      task_based: true
+      forbidden_words: ["Miscellaneous", "Various"]
+
+  code_samples:
+    requirements:
+      testable: true
+      production_ready: true
+      security_scan: basic
+    formatting:
+      language_spec: required
+      highlighting: selective
+      bold_emphasis: ["critical_sections"]
+    comments:
+      density: "1_per_10_lines"
+      content: "why > what"
+      forbidden: ["obvious_operations"]
+
+  lists_tables:
+    list_rules:
+      max_items: 7
+      parallelism: strict
+      introduction: "complete_sentence:"
+    table_rules:
+      header_requirements: 
+        descriptive: true
+        technical_terms: explained
+      cell_constraints:
+        max_length: 120
+        markdown: forbidden
+
+  cultural_requirements:
+    neutrality:
+      forbidden:
+        - sports_analogies
+        - region_specific_idioms
+      examples:
+        bad: "Home run implementation"
+        good: "Successful implementation"
+    vocabulary:
+      complexity: flesch_kincaid_8
+      banned_words:
+        - sesquipedalian
+        - obtuse
+        - kosher
+      translation_ready: true
+
+  visual_elements:
+    illustrations:
+      caption_first: mandatory
+      complexity_score: 
+        max: 3
+        calculation: "elements + connections"
+      callouts:
+        required_for: ["screenshots", "diagrams"]
+        style: "numbered_circles"
+    diagrams:
+      format: SVG
+      tools: ["draw.io", "Lucidchart"]
+      color_contrast: WCAG_AA
+
+  validation:
+    automated_checks:
+      - passive_voice_detector
+      - cultural_reference_scanner
+      - link_validator
+    manual_checks:
+      - curse_of_knowledge_assessment
+      - audience_proximity_verification
+    testing:
+      sample_code: 
+        execution_env: "dockerized"
+        coverage: 85%
+
+exceptions:
+  acceptable_passive_use:
+    - scientific_context
+    - actor_unknown
+    - diplomatic_content
+
+metadata:
+  compliance: "Google_Developers_Style_Guide"
+  version: "2.1"
+  last_updated: "2024-08-06"

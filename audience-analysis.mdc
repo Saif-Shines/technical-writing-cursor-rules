@@ -1,0 +1,28 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+# Audience Analysis Guide (from tw-guide)
+
+## Define Your Audience's Needs
+
+Answering these questions helps determine document content:
+
+*   **Who is your target audience?** (Consider roles and proximity to knowledge)
+*   **What is their goal?** Why are they reading this?
+*   **What do they already know** before reading?
+*   **What should they know or be able to do** after reading?
+
+## Determine What Your Audience Needs to Learn
+
+*   List tasks the audience needs to perform or information they need to learn.
+*   Consider task order if applicable.
+*   Focus on information for design specs, tasks for how-to guides.
+
+## Fit Documentation to Your Audience
+
+*   Use empathy: Write for the audience's curiosity, not your own.
+*   Match vocabulary and concepts to the audience.
+*   Be mindful of proximity: Explain more as the audience widens or is less familiar.
+*   Beware the "Curse of Knowledge": Explain concepts experts might take for granted.

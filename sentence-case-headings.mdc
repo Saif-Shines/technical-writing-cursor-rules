@@ -1,0 +1,18 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+# Sentence Case in Headings
+
+Always use sentence case for all headings in documentation, markdown files, and code comments. Only the first word and proper nouns should be capitalized; all other words must be lowercase. Do not use title case except for proper nouns.
+
+Apply this rule to all heading levels (e.g., H1, H2, H3, etc.) and in all documentation formats.
+
+**Example:**
+- Good: `## Configure your application`
+- Bad: `## Configure Your Application`
+
+This rule ensures consistency and readability across the codebase and documentation.
+
+See also: [technical-writing-style.mdc](mdc:technical-writing-style.mdc) for additional writing guidelines.

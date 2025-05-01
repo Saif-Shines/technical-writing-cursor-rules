@@ -1,0 +1,31 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+# Document Structure Guide (from tw-guide)
+
+## Introduce a Document
+
+An effective introduction includes:
+
+*   What the document covers.
+*   Expected prior knowledge.
+*   What the document *doesn't* cover.
+
+Keep it concise and accurate reflect the document's content.
+
+## Organize with Headings
+
+*   **Prefer task-based headings:** Use verb phrases (e.g., "Running the command", "Creating the site").
+*   **Provide text under each heading:** Avoid nesting headings without introductory text between them.
+
+## Add Navigation
+
+Ensure clear navigation to help users:
+
+*   Introduction and summary sections.
+*   Logical flow of the subject.
+*   Clear headings and subheadings.
+*   Table of contents (if applicable).
+*   Links to related resources and next steps.
