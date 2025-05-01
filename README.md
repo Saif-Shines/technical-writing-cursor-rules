@@ -67,9 +67,15 @@ These principles are configured as Cursor rules that automatically integrate wit
 
 ## Getting Started
 
-1. Clone this repository
-2. Follow the installation instructions in the setup guide
-3. Configure the rules according to your project requirements
+To add these technical writing rules to your existing project:
+
+1. Ensure your project has a `.cursor/rules` directory (create it if it doesn't exist)
+2. Browse the `principles` directory in this repository to find rules you want to use
+3. Copy the desired `.mdc` files from this repository to your project's `.cursor/rules` directory
+4. Restart Cursor or reload your project for the rules to take effect
+5. Verify the rules are active via Command Palette > "Cursor: View active rules"
+
+Alternatively, you can copy the entire `principles` directory to your project root for the same effect.
 
 ## Contributing
 
