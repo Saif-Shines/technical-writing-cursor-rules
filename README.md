@@ -73,7 +73,7 @@ These principles are configured as Cursor rules that automatically integrate wit
 
 ## Contributing
 
-We welcome contributions from the technical writing community. Please read our contributing guidelines before submitting pull requests.
+We welcome contributions from the technical writing community.
 
 To add or modify principles:
 
